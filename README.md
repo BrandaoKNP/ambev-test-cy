@@ -78,3 +78,7 @@ npm run cy:run:frontend
 - **Separação `api/` e `frontend/`** — Organizar por tipo permite executar cada grupo de forma independente, o que é especialmente útil em pipelines de CI.
 - **Page Object Model vs componentes simples** — Optei pelo POM clássico (uma classe por página com getters e métodos) por ser o padrão mais difundido em projetos Cypress e o mais legível para quem vai revisar. Em projetos maiores, poderia evoluir para composições menores por componente, mas para o escopo atual o POM por página atende bem.
 - **Fixtures como referência** — O arquivo `products.json` não é consumido diretamente nos testes (os dados são criados inline com nomes dinâmicos), mas foi mantido como referência de estrutura. Em um cenário real, fixtures são úteis para testes com dados estáticos ou para alimentar múltiplos cenários com o mesmo payload.
+
+## Observação sobre o fluxo de Git
+
+Os commits foram feitos diretamente na `main` sem uso de branches e pull requests. Em um cenário real, o ideal seria trabalhar em uma feature branch e abrir um PR para revisão.
