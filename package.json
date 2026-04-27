@@ -1,0 +1,31 @@
+{
+  "name": "ambev-test-cy",
+  "version": "1.0.0",
+  "description": "Testes automatizados E2E e API com Cypress para o ServeRest",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:api": "cypress run --spec 'cypress/e2e/api/**/*.cy.js'",
+    "cy:run:frontend": "cypress run --spec 'cypress/e2e/frontend/**/*.cy.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandaoKNP/ambev-test-cy.git"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e",
+    "api"
+  ],
+  "author": "Allan Brandao",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BrandaoKNP/ambev-test-cy/issues"
+  },
+  "homepage": "https://github.com/BrandaoKNP/ambev-test-cy#readme",
+  "devDependencies": {
+    "cypress": "^15.14.1"
+  }
+}
