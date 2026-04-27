@@ -3,7 +3,7 @@ class ProductsPage {
   get logoutButton() { return '[data-testid="logout"]' }
 
   verifyIsOnProductsPage() {
-    cy.url().should('include', '/admin/listarprodutos')
+    cy.url().should('include', '/admin/home')
   }
 
   clickRegisterProduct() {
