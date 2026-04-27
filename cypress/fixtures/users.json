@@ -1,14 +1,14 @@
 {
   "admin": {
-    "nome": "Admin Teste",
-    "email": "admin_teste@qa.com",
-    "password": "teste123",
+    "nome": "Admin - Mestre Cervejeiro",
+    "email": "admin_mestre_cervejeiro@qa.com",
+    "password": "cerveja123",
     "administrador": "true"
   },
   "standard": {
-    "nome": "Usuario Comum",
-    "email": "usuario_comum@qa.com",
-    "password": "teste123",
+    "nome": "Dono do Bar",
+    "email": "dono_do_bar@qa.com",
+    "password": "lupulo123",
     "administrador": "false"
   }
 }
