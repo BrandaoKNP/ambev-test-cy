@@ -1,0 +1,14 @@
+{
+  "admin": {
+    "nome": "Admin Teste",
+    "email": "admin_teste@qa.com",
+    "password": "teste123",
+    "administrador": "true"
+  },
+  "standard": {
+    "nome": "Usuario Comum",
+    "email": "usuario_comum@qa.com",
+    "password": "teste123",
+    "administrador": "false"
+  }
+}
